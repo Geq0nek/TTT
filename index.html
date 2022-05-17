@@ -8,19 +8,27 @@
     <title>Tic Tac Toe</title>
 </head>
 <body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
     <div id="board">
-        <div class="tile" data-row="0" data-column="0"></div>
-        <div class="tile" data-row="0" data-column="1"></div>
-        <div class="tile" data-row="0" data-column="2"></div>
-        <div class="tile" data-row="1" data-column="0"></div>
-        <div class="tile" data-row="1" data-column="1"></div>
-        <div class="tile" data-row="1" data-column="2"></div>
-        <div class="tile" data-row="2" data-column="0"></div>
-        <div class="tile" data-row="2" data-column="1"></div>
-        <div class="tile" data-row="2" data-column="2"></div>
+        <div class="cell" data-cell-index="0"></div>
+        <div class="cell" data-cell-index="1"></div>
+        <div class="cell" data-cell-index="2"></div>
+        <div class="cell" data-cell-index="3"></div>
+        <div class="cell" data-cell-index="4"></div>
+        <div class="cell" data-cell-index="5"></div>
+        <div class="cell" data-cell-index="6"></div>
+        <div class="cell" data-cell-index="7"></div>
+        <div class="cell" data-cell-index="8"></div>
     </div>
     <div class="restartButton">
-        <button type="restart">Restart</button>
+        <button type="restart" onclick="restart()">Restart</button>
+    </div>
+    <div id="popup">
+        <h1>End Game!</h1>
+        <h2></h2>
+        <button type="restart" onclick="restart()">Restart</button>
     </div>
 
     <script src="script.js"></script>

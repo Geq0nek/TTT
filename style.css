@@ -1,11 +1,12 @@
 body{
     margin: 0;
-    background-color: #7171e2;
+    background-color: #a6abd9;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1{
@@ -73,12 +74,12 @@ button:hover{
     transition: .5s;
 }
 
-#popup{    
-    position:absolute;
-    top: 10%;
-    left: 25%;
-    width: 50%;
-    height: 80%;
+#popup{   
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    width: 70%;
+    height: 96%;
     background:rgba(0, 0, 0, 0.8);
     z-index:1;
     display: none;
